@@ -4,7 +4,6 @@
 //  var coursesRef = db.collection("Courses");
 
 
-
 //  coursesRef.doc("Diploma of Software Development").set({
 //      ICTICT418: "Contribute to copyright, ethics and privacy in an ICT environment",
 //      ICTPRG418: "Apply intermediate programming skills in another language",

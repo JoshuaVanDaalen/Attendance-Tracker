@@ -3,3 +3,4 @@
 //Remove delete button
 //Sort table by newest
 //Add day, week, month, all buttons
+// Add a page that admin staff can create the courses/ classes that are used in the fields

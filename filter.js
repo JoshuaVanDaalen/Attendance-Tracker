@@ -58,6 +58,10 @@
     });
 });*/
 
+// Hard coded Login
+//var ref = new firebase(fir)
+
+
 function LoadTableData(querySnapshot) {
     var tableRow = '';
     querySnapshot.forEach(function (doc) {

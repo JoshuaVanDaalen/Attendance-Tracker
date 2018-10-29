@@ -57,9 +57,9 @@ $(document).ready(function () {
             displayClassInfo();
             displayScanner();
 
-            $('#scanner-info').fadeIn('slow');
-            $('#class-info').fadeIn('slow');
-            $('#student-table-div').fadeIn('slow');
+            $('#scanner-info').fadeIn('fast');
+            $('#class-info').fadeIn('fast');
+            $('#student-table-div').fadeIn('fast');
             $('#courseForm').css("display", "none")
             $('#rfidscanner').focus();
 
@@ -79,10 +79,10 @@ $(document).ready(function () {
     
     //Reset button
     $("#class-info").on("click", "#change-class", function () {
-        $('#scanner-info').fadeOut('slow');
-        $('#class-info').fadeOut('slow');
-        $('#student-table-div').fadeOut('slow');
-        $('#courseForm').fadeIn('slow');
+        $('#scanner-info').fadeOut('fast');
+        $('#class-info').fadeOut('fast');
+        $('#student-table-div').fadeOut('fast');
+        $('#courseForm').fadeIn('fast');
     });
 
     //Scan of card
